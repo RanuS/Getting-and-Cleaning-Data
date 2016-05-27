@@ -15,7 +15,7 @@ A codebook is provided to deliver information about the transformations used to 
 
 <pre>codeBook.md</pre>
 
-Result will be a tidy data set which will be in working directory. Use the following code to read the Tidy data created.
+Result will be a tidy dataset stored in **"ActivityRecognitionUsingSmartphones.txt"** which will be in working directory. Use the following code to read the Tidy data created.
 
 <pre class="r"><code class="r"><span class="identifier">Tidydata</span><span class="operator">&lt;-</span><span class="identifier">read.table</span><span class="paren">(</span><span class="string">"ActivityRecognitionUsingSmartphones.txt"</span>,<span class="identifier">header</span> <span class="operator">=</span> <span class="literal">TRUE</span><span class="paren">)</span>
 <span class="identifier">head</span><span class="paren">(</span><span class="identifier">Tidydata</span><span class="paren">)</span></code></pre>
